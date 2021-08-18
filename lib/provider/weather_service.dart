@@ -4,6 +4,5 @@ Future<Map> getData() async {
   var response =
       await Dio().get("https://api.hgbrasil.com/weather?woeid=456653");
 
-  response.data;
-  return "Ola";
+  return response.data;
 }
