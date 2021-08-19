@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:previsao_do_tempo/screens/home/home.dart';
+import 'package:previsao_do_tempo/screens/home/Home.dart';
 import 'package:previsao_do_tempo/style.dart';
 
-void main() => runApp(
-      MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Home(),
-        darkTheme: ThemeData(
+void main() => runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+      darkTheme: ThemeData(
           scaffoldBackgroundColor: grayTheme,
           textTheme: TextTheme(
             headline1: GoogleFonts.dosis(
@@ -44,8 +43,6 @@ void main() => runApp(
               color: Colors.white,
               fontWeight: FontWeight.w400,
             ),
-          ),
-        ),
-        themeMode: ThemeMode.dark,
-      ),
-    );
+          )),
+      themeMode: ThemeMode.dark,
+    ));

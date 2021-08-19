@@ -1,3 +1,3 @@
 import 'package:flutter/painting.dart';
 
-Color grayTheme = Color(0xFF2E3643);
+Color grayTheme = Color(0xff2e3643);
